@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Instagram, Linkedin, Youtube } from 'lucide-react';
+import profileImage from './images/my-img.jpg';
 
 function App() {
   return (
@@ -35,8 +36,8 @@ function App() {
           <div className="flex-1">
             <div className="relative w-full aspect-square max-w-lg mx-auto">
               <img 
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800"
-                alt="Profile"
+                src="/images/my-img.jpg"
+                alt="Arthisha - AI Tools Expert"
                 className="rounded-2xl object-cover w-full h-full"
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-purple-500/20 to-transparent"></div>
@@ -51,32 +52,44 @@ function App() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4 text-white/80">
                 <p>
-                  A passionate digital creator with a focus on AI-powered tools and creative workflows. 
-                  Proud recipient of the NMMS scholarship and winner of multiple hackathons.
+                  Hey! I'm Arthisha (@arthisha__r3), your AI tools and productivity guide on Instagram.
+                  I'm passionate about making AI accessible and helping creators leverage technology.
                 </p>
                 <p>
-                  My mission is to inspire others by showcasing how AI tools can enhance creative processes 
-                  and transform ideas into reality.
+                  Creator of the "108 AI Tools in 108 Days Challenge" - a journey to explore and master
+                  the most innovative AI tools. Join me in the AI Revolution as we explore everything from
+                  3D image conversion to video generation.
                 </p>
+                <p>
+                  I share daily tutorials on:
+                </p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Image & Video Generation with AI</li>
+                  <li>No-Code & Low-Code AI Solutions</li>
+                  <li>Portfolio Building & Personal Branding</li>
+                  <li>AI-Powered Content Creation</li>
+                  <li>Instagram Growth Strategies</li>
+                  <li>Faceless Channel Development</li>
+                </ul>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-full bg-white/20 rounded-full h-4">
-                    <div className="bg-white w-[90%] h-full rounded-full"></div>
+                    <div className="bg-white w-[95%] h-full rounded-full"></div>
                   </div>
                   <span className="text-white min-w-[100px]">AI Tools</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-full bg-white/20 rounded-full h-4">
-                    <div className="bg-white w-[85%] h-full rounded-full"></div>
+                    <div className="bg-white w-[90%] h-full rounded-full"></div>
                   </div>
-                  <span className="text-white min-w-[100px]">Design</span>
+                  <span className="text-white min-w-[100px]">Tutorials</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-full bg-white/20 rounded-full h-4">
-                    <div className="bg-white w-[80%] h-full rounded-full"></div>
+                    <div className="bg-white w-[85%] h-full rounded-full"></div>
                   </div>
-                  <span className="text-white min-w-[100px]">Development</span>
+                  <span className="text-white min-w-[100px]">Content Creation</span>
                 </div>
               </div>
             </div>
